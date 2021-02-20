@@ -1,0 +1,10 @@
+body {
+  font-size: 1.2rem;
+}
+
+#i1 {
+  float: left;
+}
+#i2 {
+  float: right;
+}
