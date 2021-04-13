@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* #red {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        position: absolute;
+        display: none;
+      }
+      #green {
+        width: 300px;
+        height: 300px;
+        background-color: green;
+        position: absolute;
+      } */
+    </style>
+
+    <title>Jquery</title>
+  </head>
+  <body>
+    <!-- <h1 class="titulo">Esse é um titulo H1</h1>
+    <h1 class="titulo2">Please dont go</h1> -->
+    <!-- <button id="button">Animar</button>
+    <div id="green"></div>
+    <div id="red"></div> -->
+
+    <!-- <h1>Minha Lista 1</h1>
+
+    <ul id="lista1">
+      <li class="item1">item 1</li>
+      <li class="item2">item 2</li>
+      <li class="item3">item 3</li>
+      <li class="item4">item 4</li>
+      <li class="item5">item 5</li>
+    </ul>
+    <h1>Minha Lista 2</h1>
+
+    <ul id="lista2">
+      <li class="item1">item 1</li>
+      <li class="item2">item 2</li>
+      <li class="item3">item 3</li>
+      <li class="item4">item 4</li>
+      <li class="item5">item 5</li>
+    </ul> -->
+
+    <!-- <h1>Minha Lista 1</h1> -->
+    <!-- <input type="text" id="novo" name="novo" value="" /> -->
+
+    <!-- <ul id="lista1">
+      <li class="item1" name="item 0">item 1</li>
+      <li class="item2" name="item 1">item 2</li>
+      <li class="item3" name="item 2">item 3</li>
+      <li class="item4" name="item 3">item 4</li>
+      <li class="item5" name="item 4">item 5</li>
+    </ul> -->
+    <!-- <ul id="lista1">
+      <li key="1" class="item" name="item 0">item 1</li>
+      <li key="2" class="item" name="item 1">item 2</li>
+      <li key="3" class="item" name="item 2">item 3</li>
+      <li key="4" class="item" name="item 3">item 4</li>
+      <li key="5" class="item" name="item 4">item 5</li>
+    </ul>
+    <div class="rect">Texto padrão</div> -->
+
+    <!-- <h1>Lista de Compras</h1> -->
+
+    <!-- <div class="box"></div> -->
+
+    <div class="container">
+      <div class="div1" id="div1">Div 1</div>
+      <div class="div2" id="div2">Div 2</div>
+      <div class="div1" id="div3">Div 3</div>
+      <div class="div2" id="div4">Div 4</div>
+      <div class="div1" id="div5">Div 5</div>
+    </div>
+
+    <div class="container2">
+      <div class="div2" id="div6">Div 6</div>
+      <div class="div1" id="div7">Div 7</div>
+      <div class="div2" id="div8">Div 8</div>
+      <div class="div1" id="div9">Div 9</div>
+      <div class="div2" id="div10">Div 10</div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script>
+      $(".titulo2").hide();
+      $(".titulo").click(() => {
+        console.log("click");
+      });
+      $(".titulo").mouseenter(() => {
+        console.log("mouse enter");
+      });
+      $(document).mouseleave(() => {
+        $(".titulo2").show();
+      });
+      $(".titulo").dblclick(() => {
+        console.log("mouse double click");
+      });
+
+</script> -->
+    <script>
+      // Animações
+
+      // $("#button").click((e) => {
+      //   $("#square").fadeTo(1000, 1.5);
+      // });
+      // $("#button").click((e) => {
+      //   $("#square").slideToggle(3000);
+      // });
+      // $("#button").click((e) => {
+      //   $("#square").animate(
+      //     {
+      //       width: 200,
+      //       height: 100,
+      //     },
+      //     3000
+      // //   );
+      // $("#button").click((e) => {
+      //   $("#square").animate(
+      //     {
+      //       width: 200,
+      //       height: 100,
+      //     },
+      //     3000
+      //   );
+      // });
+
+      // $("#stop").click((e) => {
+      //   $("#square").stop();
+      // });
+
+      // CALLBACK
+
+      // const callbacks = () => {
+      //   $("#red").show(2000);
+      // };
+
+      // $("#button").click((e) => {
+      //   $("#green").hide(2000).show(2000, callbacks);
+      // });
+      // siblings
+      // let selected = $("#div3").siblings("#div4");
+      // let selected = $("#div3").nextAll();
+      // let selected = $("#div3").next();
+      // let selected = $("#div3").prev();
+      // let selected = $("#div3").prevAll();
+      // let selected = $("#div1").nextUntil("#div5");
+      // let selected = $("#div5").prevUntil("#div2");
+      // console.log(selected);
+
+      // FILTER LAST FIRST EQ
+      // let selected = $("div").filter(".div1");
+      // let selected = $(".container2").children().first();
+      // let selected = $(".container2").children().last();
+      // let selected = $(".container2").children().not(".div2");
+      let selected = $(".container2").children().eq(0);
+      console.log(selected);
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
