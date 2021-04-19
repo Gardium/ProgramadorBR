@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* div {
+        font-size: 2rem;
+        width: 100px;
+      } */
+
+      /* img {
+        width: 300px;
+      } */
+      .hide {
+        display: none;
+      }
+
+      .w300 {
+        max-width: 300px;
+      }
+
+      .pgbr-carousel-item {
+        height: 300px;
+      }
+    </style>
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- <div class="btn btn-info text-white m-5">enviar</div> -->
+
+    <!-- CORES -->
+    <!-- <button class="btn btn-success">OK</button>
+    <button class="btn btn-light">Cancelar</button>
+    <div class="text-muted">muted</div>
+    <div class="text-primary">primary</div>
+    <div class="text-success">success</div>
+    <div class="text-info">info</div>
+    <div class="text-warning">warning</div>
+    <div class="text-danger">danger</div>
+    <div class="text-white bg-dark">white</div>
+    <div class="text-dark">dark</div>
+    <div class="text-light">light</div> -->
+
+    <!-- Titulos e Display -->
+
+    <!-- <h1>Titulo h1</h1>
+    <h2>Titulo h2</h2>
+    <h3>Titulo h3</h3>
+    <h4>Titulo h4</h4>
+    <h5>Titulo h5</h5>
+    <h6>Titulo h6</h6>
+
+    <p class="h1">titulo h1</p>
+    <p class="h2">titulo h2</p>
+    <p class="h3">titulo h3</p>
+    <p class="h4">titulo h4</p>
+    <p class="h5">titulo h5</p>
+    <p class="h6">titulo h6</p>
+
+    <p class="display-1">titulo h1</p>
+    <p class="display-2">titulo h2</p>
+    <p class="display-3">titulo h3</p>
+    <p class="display-4">titulo h4</p>
+    <p>titulo h5</p>
+    <p>titulo h6</p> 
+
+    <h3 class="display-4">
+      Curso Desenvolvimento Web
+      <small class="text-muted">Do Zero ao Primeiro Projeto</small>
+    </h3>
+-->
+
+    <!-- Padding and Margin -->
+
+    <!-- <div class="bg-info mx-auto">Div</div> -->
+
+    <!-- container -->
+    <!-- <div class="bg-dark">
+      <div class="container text-light">
+        <h1>Titulo</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+          fuga, veniam consequuntur perferendis sapiente maxime laboriosam
+          consectetur molestiae dicta fugit quis at nobis placeat praesentium
+          beatae ullam neque odio. Quo.
+        </p>
+      </div>
+    </div> -->
+    <!-- Display + float -->
+    <!-- 
+    <img
+      class="float-end"
+      src="https://upload.wikimedia.org/wikipedia/commons/8/84/Example.svg"
+      alt=""
+    />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum
+      ducimus sunt quidem incidunt. Quaerat dolorem, sit, perspiciatis doloribus
+      placeat blanditiis sint facilis voluptates exercitationem, aliquam odio id
+      ea ex?
+    </p> -->
+
+    <!-- responsividade -->
+    <!-- 
+    <img
+      class="float-md-end"
+      src="https://upload.wikimedia.org/wikipedia/commons/8/84/Example.svg"
+      alt=""
+    />
+    <p class="d-lg-inline">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum
+      ducimus sunt quidem incidunt. Quaerat dolorem, sit, perspiciatis doloribus
+      placeat blanditiis sint facilis voluptates exercitationem, aliquam odio id
+      ea ex?
+    </p> -->
+    <!-- FLEXBOX -->
+    <!-- <div
+      class="container d-flex justify-content-xl-between align-items-lg-start"
+    >
+      <div class="bg-primary">linha 1</div>
+      <div class="bg-warning align-self-end">linha 2</div>
+      <div class="bg-success">linha 3</div>
+      <div>
+        <div class="bg-info">Linha 4</div>
+        <div class="bg-secondary">Linha 5</div>
+        <div class="bg-dark text-light">Linha 6</div>
+      </div>
+    </div> -->
+
+    <!-- COLUNAS -->
+    <!-- <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-1 col-md6 bg-dark">Col</div>
+        <div class="col-1 col-md-6 bg-info">Col</div>
+      </div>
+      <div>
+        <div class="col-2 col-md bg-success">Col</div>
+        <div class="col bg-warning">Col</div>
+        <div class="col bg-info">Col</div>
+        <div class="col bg-danger">Col</div>
+      </div>
+      <div class="row">
+        <div class="col-2 bg-success">Col</div>
+        <div class="col-5 bg-dark">Col</div>
+        <div class="col-5 bg-info">Col</div>
+      </div>
+    </div> -->
+    <!-- 
+    <h1>Titulo</h1>
+    <p class="fst-italic fw-bold font-monospace text-">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum,
+      dolore fugit at quod ullam reprehenderit earum eius in obcaecati inventore
+      nisi. Beatae dolorem excepturi hic, fugiat eveniet expedita et.
+    </p>
+    <a href="#" class="text-decoration-none">link</a>
+    <ul class="list-unstyled">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul> -->
+    <!-- IMAGEM -->
+    <!-- <div class="text-center">
+      <img
+        class="img-thumbnail img-fluid"
+        src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
+        alt=""
+      />
+    </div> -->
+    <!-- Table -->
+    <!-- <table class="table-responsive table table-striped table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th>Titulo</th>
+          <th>Views</th>
+          <th>Likes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Entrei na banheira de Nutella e Olha no que deu</td>
+          <td>10.000</td>
+          <td>7.842</td>
+        </tr>
+        <tr ></tr>
+          <td>Entrei na banheira de Nutella e Olha no que deu</td>
+          <td>10.000</td>
+          <td>7.842</td>
+        </tr>
+        <tr class="table-dark">
+          <td>Entrei na banheira de Nutella e Olha no que deu</td>
+          <td>10.000</td>
+          <td>7.842</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates
+      eveniet consequatur? Esse numquam perspiciatis nam exercitationem ex in
+      culpa libero placeat nemo accusamus nostrum aut itaque, quidem, sequi
+      dolores.
+    </p> -->
+
+    <!-- ALERT -->
+    <!-- 
+    <div id="err" class="alert alert-danger hide">
+      <strong
+        >Erro : O campo não deve estar vazio
+        <a href="#" class="alert-link">Link</a></strong
+      >
+    </div> -->
+    <!-- 
+    <div id="err" class="alert alert-danger alert-dismissable">
+      <strong
+        >Erro : O campo não deve estar vazio
+        <a href="#" class="alert-link">Link</a></strong
+      >
+      <button class="btn-close text-danger" data-dismiss="alert"></button>
+    </div> -->
+
+    <!-- <input type="email" />
+    <button onClick="enviar()">Cadastrar</button> -->
+
+    <!-- <script>
+      function enviar() {
+        if ($("input")[0].value == "") {
+          $("#err").slideDown(2000);
+        }
+      }
+    </script> -->
+
+    <!-- Buttons -->
+    <!-- 
+    <button class="btn">Basic</button>
+    <button class="btn btn-primary">primary</button>
+    <button class="btn btn-secondary">secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-info">info</button>
+    <button class="btn btn-warning">warning</button>
+    <button class="btn btn-light">Cancelar</button>
+    <button class="btn btn-danger">danger</button>
+    <button class="btn btn-muted">muted</button>
+    <button class="btn disabled btn-dark">dark</button>
+    <button class="btn btn-light">light</button>
+    <button class="btn btn-white bg-link">Link</button>
+    <button class="btn-outline btn-lg">Basic</button>
+    <hr />
+
+    <button class="btn btn-outline-primary active btn-sm">primary</button>
+    <button class="btn btn-outline-secondary btn-block">secondary</button>
+    <button class="btn btn-outline-success">Success</button>
+    <button class="btn btn-outline-info">info</button>
+    <button class="btn btn-outline-warning">warning</button>
+    <button class="btn btn-outline-light">Cancelar</button>
+    <button class="btn btn-outline-danger">danger</button>
+    <button class="btn btn-outline-muted">muted</button>
+    <button class="btn btn-outline-dark">dark</button>
+    <button class="btn btn-outline-light">light</button>
+    <button class="btn btn-outline-white bg-link">Link</button>
+  
+  
+  <input type="submit" class="btn btn-success" />
+    <a href="" class="btn btn-primary">Facebook</a>
+    -->
+
+    <!-- button group -->
+    <!-- <div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-primary">1</button>
+      <button type="button" class="btn btn-primary">2</button>
+      <button type="button" class="btn btn-primary">3</button>
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+      </div>
+    </div> -->
+
+    <!-- collapse -->
+
+    <!-- <img
+      id="imagem1"
+      class="img-thumbnail img-fluid collapse"
+      src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
+      alt=""
+    />
+
+    <button
+      class="btn btn-primary"
+      data-toggle="collapse"
+      data-target="#imagem1"
+    >
+      mostrar
+    </button>
+
+    <div id="div1" class="collapse-show">Teste da teta</div>
+    <button class="btn btn-link" data-toggle="collapse" href="#div1">
+      Condeu
+    </button> -->
+
+    <!-- DropDown -->
+
+    <!-- <div class="container">
+      <div class="btn-group">
+        <button class="btn btn-info">
+          Atividades da casa da putaria do seu zé, quero fudeeeer
+        </button>
+        <button
+          class="btn btn-danger dropdown-toggle"
+          data-toggle="dropdown"
+        ></button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <div class="dropdown-header">Outdoor</div>
+
+          <a class="dropdown-item-text" href="">Atividade1</a>
+          <a class="dropdown-item" href="">Atividade2</a>
+          <div class="dropdown-header">Indoor</div>
+
+          <a class="dropdown-item disabled" href="">Atividade3</a>
+          <a class="dropdown-item active" href="">Atividade4</a>
+          <a class="dropdown-item" href="">Atividade5</a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- CARDs -->
+    <!-- <div class="card-group">
+      <div class="card">
+        <div class="card-img-top">
+          <img
+            id="imagem1"
+            src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
+            alt=""
+          />
+        </div>
+        <card-header>
+          <h4 class="card-title">Vancouver</h4>
+        </card-header>
+        <div class="card-body">
+          <div class="card-text">A melhor cidade do Canadians</div>
+        </div>
+        <card-footer>
+          <a href="https://pt.wikipedia.org/wiki/Vancouver" class="card-link"
+            >Saiba mais</a
+          >
+        </card-footer>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top">
+          <img
+            id="imagem1"
+            src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
+            alt=""
+          />
+        </div>
+        <card-header>
+          <h4 class="card-title">Vancouver</h4>
+        </card-header>
+        <div class="card-body">
+          <div class="card-text">A melhor cidade do Canadians</div>
+        </div>
+        <card-footer>
+          <a href="https://pt.wikipedia.org/wiki/Vancouver" class="card-link"
+            >Saiba mais</a
+          >
+        </card-footer>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top">
+          <img
+            id="imagem1"
+            src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
+            alt=""
+          />
+        </div>
+        <card-header>
+          <h4 class="card-title">Vancouver</h4>
+        </card-header>
+        <div class="card-body">
+          <div class="card-text">A melhor cidade do Canadians</div>
+        </div>
+        <card-footer>
+          <a href="https://pt.wikipedia.org/wiki/Vancouver" class="card-link"
+            >Saiba mais</a
+          >
+        </card-footer>
+      </div>
+    </div> -->
+
+    <!-- ACORDDION -->
+    <!-- <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#resp1">
+            Sua pergunta nº1
+          </a>
+        </div>
+
+        <div id="resp1" data-parent="#accordion" class="collapse">
+          Sua resposta nº1
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#resp2">
+            Sua pergunta nº2
+          </a>
+        </div>
+
+        <div id="resp2" data-parent="#accordion" class="collapse">
+          Sua resposta nº2
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#resp3">
+            Sua pergunta nº3
+          </a>
+        </div>
+
+        <div id="resp3" data-parent="#accordion" class="collapse">
+          Sua resposta nº3
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Progress Bar -->
+    <!-- <div class="progress">
+      <div
+        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+        style="width: 30%"
+      >
+        30%
+      </div>
+    </div>
+
+    <script>
+      let progressBar = document.querySelector(".progress-bar");
+
+      setInterval(() => {
+        let value = Number(progressBar.innerHTML.replace("%", ""));
+
+        if (value < 100) {
+          progressBar.innerHTML = `${value+1}%`;
+          progressBar.style.width = `${value+1}%`;
+        }
+      }, 100);
+    </script> -->
+
+    <!-- Spinner -->
+    <!-- <button class="btn btn-primary disabled">
+      <span class="spinner-border spinner-border-sm"></span>
+      enviando
+    </button> -->
+
+    <!-- List Group -->
+    <!-- <div class="container">
+      <div class="list-group list-group-horizontal">
+        <a href="#" class="list-group-item active">1</a>
+        <a href="#" class="list-group-item disabled">2</a>
+        <a href="#" class="list-group-item list-group-item-success">3</a>
+        <a href="#" class="list-group-item">4</a>
+        <a href="#" class="list-group-item list-group-item-warning">5</a>
+      </div>
+    </div> -->
+
+    <!-- Paginação -->
+
+    <!-- <ul class="pagination justify-content-center">
+      <li class="page-item"><a href="" class="page-link">1</a></li>
+      <li class="page-item"><a href="" class="page-link">2</a></li>
+      <li class="page-item"><a href="" class="page-link">3</a></li>
+      <li class="page-item"><a href="" class="page-link">4</a></li>
+      <li class="page-item"><a href="" class="page-link">5</a></li>
+    </ul>
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="">Eletronicos</a></li>
+      <li class="breadcrumb-item"><a href="">Computadores</a></li>
+      <li class="breadcrumb-item"><a href="">Acessorios</a></li>
+      <li class="breadcrumb-item"><a href="">Disco Rigidos</a></li>
+    </ul> -->
+
+    <!-- NAV -->
+    <!-- 
+    <ul class="nav-pills nav nav-justified">
+      <li class="nav-item">
+        <a data-toggle="tab" href="#home" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a data-toggle="tab" href="#price" class="nav-link">Preços</a>
+      </li>
+      <li class="nav-item">
+        <a data-toggle="tab" href="#about" class="nav-link">Sobre</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane active">
+        <h1>Home</h1>
+      </div>
+      <div id="price" class="tab-pane fade">
+        <h1>Preços</h1>
+      </div>
+      <div id="about" class="tab-pane fade">
+        <h1>Sobre</h1>
+      </div>
+    </div> -->
+
+    <!-- NavBar
+<div class="bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark container">
+      <div class="navbar-brand  ">
+        <h1>Logo</h1>
+      </div>
+
+      <button
+        type="button"
+        data-toggle="collapse"
+        data-target="#myNav"
+        class="navbar-toggler"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="myNav" class = "collapse navbar-collapse justify-content-end ">
+
+      <ul class="navbar-nav  justify-content-end">
+        <li class="nav-item">
+          <a data-toggle="tab" href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="tab" href="#price" class="nav-link">Preços</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="tab" href="#about" class="nav-link">Sobre</a>
+        </li>
+        <li class="btn btn-primary">Comprar</li>
+      </ul>
+    </nav>
+  </div>
+</div> -->
+    <!-- Carousel -->
+    <!-- 
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#mycarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="pgbr-carousel-item align-items-center bg-info text-white d-flex justify-content-center"
+          >
+            Oferta 1
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="pgbr-carousel-item align-items-center bg-dark text-white d-flex justify-content-center"
+          >
+            Oferta 2
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="pgbr-carousel-item align-items-center bg-danger text-white d-flex justify-content-center"
+          >
+            Oferta 3
+          </div>
+        </div>
+      </div>
+      <a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span
+          ></a>
+          <a href="#mycarousel" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span
+              ></a>
+            </div> -->
+
+    <!-- MODAL -->
+    <!-- 
+    <button data-toggle="modal" data-target="#myModal">Show modal</button>
+    <div class="container">
+      <h1>Titulo</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint
+        nemo quibusdam libero error hic eligendi pariatur, nam, dicta optio
+        mollitia? Necessitatibus quis non ipsam numquam earum quos autem totam.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
+        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
+        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Recusandae explicabo quae sapiente
+        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
+        voluptatum tempore quod labore dicta odit ullam cupiditate. Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Excepturi sint nemo
+        quibusdam libero error hic eligendi pariatur, nam, dicta optio mollitia?
+        Necessitatibus quis non ipsam numquam earum quos autem totam. Lorem
+        ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
+        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
+        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Recusandae explicabo quae sapiente
+        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
+        voluptatum tempore quod labore dicta odit ullam cupiditate. Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Excepturi sint nemo
+        quibusdam libero error hic eligendi pariatur, nam, dicta optio mollitia?
+        Necessitatibus quis non ipsam numquam earum quos autem totam. Lorem
+        ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
+        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
+        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Recusandae explicabo quae sapiente
+        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
+        voluptatum tempore quod labore dicta odit ullam cupiditate. Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Excepturi sint nemo
+        quibusdam libero error hic eligendi pariatur, nam, dicta optio mollitia?
+        Necessitatibus quis non ipsam numquam earum quos autem totam. Lorem
+        ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
+        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
+        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Recusandae explicabo quae sapiente
+        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
+        voluptatum tempore quod labore dicta odit ullam cupiditate.
+      </p>
+    </div>
+
+    <div class="modal fade" id="myModal">
+      <div
+        class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1>Oferta Imperdivel</h1>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Excepturi sint nemo quibusdam libero error hic eligendi pariatur,
+              nam, dicta optio mollitia? Necessitatibus quis non ipsam numquam
+              earum quos autem totam. Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Praesentium, doloribus cupiditate! Laudantium
+              aut, tempora fuga non autem reiciendis perferendis laboriosam.
+              Veritatis voluptatibus eos doloremque, adipisci dolor beatae
+              commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Recusandae explicabo quae sapiente
+              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
+              voluptatem voluptatum tempore quod labore dicta odit ullam
+              cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Excepturi sint nemo quibusdam libero error hic eligendi
+              pariatur, nam, dicta optio mollitia? Necessitatibus quis non ipsam
+              numquam earum quos autem totam. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Praesentium, doloribus cupiditate!
+              Laudantium aut, tempora fuga non autem reiciendis perferendis
+              laboriosam. Veritatis voluptatibus eos doloremque, adipisci dolor
+              beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Recusandae explicabo quae sapiente
+              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
+              voluptatem voluptatum tempore quod labore dicta odit ullam
+              cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Excepturi sint nemo quibusdam libero error hic eligendi
+              pariatur, nam, dicta optio mollitia? Necessitatibus quis non ipsam
+              numquam earum quos autem totam. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Praesentium, doloribus cupiditate!
+              Laudantium aut, tempora fuga non autem reiciendis perferendis
+              laboriosam. Veritatis voluptatibus eos doloremque, adipisci dolor
+              beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Recusandae explicabo quae sapiente
+              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
+              voluptatem voluptatum tempore quod labore dicta odit ullam
+              cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Excepturi sint nemo quibusdam libero error hic eligendi
+              pariatur, nam, dicta optio mollitia? Necessitatibus quis non ipsam
+              numquam earum quos autem totam. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Praesentium, doloribus cupiditate!
+              Laudantium aut, tempora fuga non autem reiciendis perferendis
+              laboriosam. Veritatis voluptatibus eos doloremque, adipisci dolor
+              beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Recusandae explicabo quae sapiente
+              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
+              voluptatem voluptatum tempore quod labore dicta odit ullam
+              cupiditate.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="btn btn-success">BUY NOW</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- TOOLTIP -->
+    <!-- <div class="container d-flex justify-content-center mt-5 p-5">
+      <a
+        href="https://programadorbr.com/dev-web"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Teu cu na minha rola minha cu na sua rola"
+        >programador BR</a
+      >
+    </div> -->
+    <!--     
+    <div class="container d-flex justify-content-center mt-5 p-5">
+      <a
+        href="#"
+        data-trigger="hover"
+        data-toggle="popover"
+        data-placement="top"
+        title="Teu cu na minha rola "
+        data-content="minha cu na sua rola"
+        >programador BR</a
+      >
+    </div> -->
+    <div class="container justify-content-center mt-5 p-5">
+      <div id="mybutton" class="btn btn-primary">Show Toast</div>
+      <div id="mybutton2" class="btn btn-danger">Hide Toast</div>
+      <div class="toast" data-autohide="false">
+        <div class="toast-header"><h1>Titulo</h1></div>
+        <div class="toast-body"><p>Um texto para recordar</p></div>
+      </div>
+    </div>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script>
+      $(document).ready(() => {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script> -->
+    <!-- <script>
+      $(document).ready(() => {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script> -->
+    <script>
+      $(document).ready(() => {
+        $("#mybutton").click(() => {
+          $(".toast").toast("show");
+        });
+      });
+      $(document).ready(() => {
+        $("#mybutton2").click(() => {
+          $(".toast").toast("hide");
+        });
+      });
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
